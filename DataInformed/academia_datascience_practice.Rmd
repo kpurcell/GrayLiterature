@@ -1,0 +1,42 @@
+---
+title: "DataInformed Outline"
+author: "KM Purcell"
+date: "`r Sys.Date()`"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Working Title: Train & Drain: How acadameia is driving data science and analytics
+
+### Paths from academia to data science
+
+Through what avenues does academia currently influence the data science job market?
+- Drain: academics leaving the ivy halls for positions leading research operations in private industry, government, and non-profits.
+- Train: academics, within established degree programs are training students in their image and sending them into those same positions (private industry, government, and non-profits).
+     
+     
+### Post-graduate diversity in data science
+
+- What post-graduate degrees types (PhD, MD, M.S., etc) dominate the data science landscape?
+- What fields of study are most contributing to the current data science workforce.  
+
+### Field of study and data science "best practices"
+
+- Explore the relationship between the top fields of study for the current data scientists  and what similarities they share in graduate training (i.e. strong research focus).
+
+- Highlight contributions from top fields (physics, statistics) and the tools that they are bringing to data science (pattern reognition, machine learning).  
+
+### Revising the data science venn
+
+- Here I would argue that the traditional venn diagram of data science (mathematics, computer science, and domain expertise) should be updated.
+
+- I suggest that the venn be modified to represent the nature of data scientists training namely, mathematics/statistics, computer science, and scientific methods (training in logic, research methods, and experimental design)
+
+
+
+
+     
+     
