@@ -1,8 +1,8 @@
 ---
-title: "DataInformed Outline"
+title: "Data Informed Notes"
 author: "KM Purcell"
-date: "`r Sys.Date()`"
-output: word_document
+date: "June 9, 2016"
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
@@ -38,5 +38,5 @@ Through what avenues does academia currently influence the data science job mark
 
 
 
-     
-     
+
+According to GoodCall (https://www.goodcall.com/news/data-scientist-keeps-ranking-top-every-best-jobs-list-06805)

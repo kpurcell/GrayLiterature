@@ -1,0 +1,47 @@
+---
+title: "Train & Drain: How acadameia influences data science"
+author: "[Kevin Purcell](http://www.wildfigdata.com)"
+date: "`r Sys.Date()`"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+There is considerable discussion from both academia and industry concerning the role that academia plays in the both the development and practice of the data science profession.  With the persistent discussion of the data science "talent deficit", which [Gartner estimated](http://blogs.gartner.com/doug-laney/defining-and-differentiating-the-role-of-the-data-scientist/) at roughly 100,000 people through 2020; and the explosive growth of employment opportunities, which Deloitte estimates will be a nearly [7 digit need for data scientists](http://www2.deloitte.com/content/dam/html/us/analytics-trends/2016-analytics-trends/pdf/analytics-trends.pdf) by 2018,  it seems timely to take a closer look at the relationship between data science and academia and its affect on the practice of data science. 
+
+Specifically, we should be interested in the educational background of the first generation of data scientists, what disciplines do practicing data scientists derive from and what path did they take to join the data science profession?  My hypothesis is that currently the US data science job profession shows a train and drain pattern of development and practice which has important influences on how data science is conducted and the definition of a data scientist.  
+
+
+### Degrees in Data Science
+
+A recent [Burtch Works survey](http://www.burtchworks.com/big-data-analyst-salary/) reported that of individuals describing themselves as data scientists 92% had earned post-graduate degrees, with 48% indicating a Ph.D. as their terminal degree.  To place this number in some context, the Bureau of Labor Statistics (BLS) maintains education attainment statistics on the nation's labor force.  According to the [BLS Employment Projections program](http://www.bls.gov/emp/ep_table_111.htm) only 107 (3%) of the 820 employment categories for which educational attainment statistics are collected reported having greater than 10% of workers possess a Ph.D. or professional degree.  If we evaluate what proportion of those same employment categories have percentages similar to the values reported for data science (48%) we find that less than 4% of our nations labor force categories report being as highly educated as individuals in data science. This pattern indicates that data scientist spend considerable time assembling a diverse set of skills and a majority of that time is spent in the university system earning post-graduate degrees.  
+
+
+### Degress versus Disciplines
+
+In many ways educational level is a far less important than educational discipline as an indicator of the impact academia currently has on data science. The key difference between training for a master's degree and a doctoral degree is generally one of time. A master's degree requires on average 2 years of post-graduate courses and training where as doctoral degrees generally require between 3-6 years depending on discipline. This disparity in time is a proxy for professional experience.  The number of research studies a master's student can  conduct in a 2 year period in extremely limited in comparison to a doctoral student.  This comparison also ignores the [average 4-5 years](https://nexus.od.nih.gov/all/2012/06/29/postdoctoral-researchers-facts-trends-and-gaps/) doctoral graduates spend doing research in post-doctoral fellowships and research appointments which further enrich their skills and expertise.  
+
+### Degrees in Data Science 
+
+The educational discipline in which a person is trained is highly influential in the success of a data scientist.  The theoretical and applied experiences that are acquired during academic training define the manner in which you perceive and solve problems, the core objective of most professional data scientists.  The differences in training in disparate academic disciplines is a complex mixture of technological and empirical skill sets.  Those different skill sets are the key tools that lead to job opportunities and success in the data science trade.  A closer look at the educational disciplines of data scientists indicates that [79% of data scientist](http://www.burtchworks.com/big-data-analyst-salary/) earned their degree in one of the traditional STEM disciplines (28% Math, 18% Engineering, 17% Computer Science, 16% Natural Sciences) with 21% deriving from outside of STEM. It could be argued that the Burtch Works sample is limited deriving from only 1,757 professionals, from 800 companies in the US.  To expand on this inquiry we could refer to an interesting study by June Andrews entitled ["Evolution of Data Science"](https://www.linkedin.com/pulse/evolution-data-science-june-andrews) in which she analyzed the LinkedIn profiles of 125,000 data science professionals.  Andrews asked the question "Where do they come from?", and her findings correlated with those of the Burtch Works survey.  For instance Andrews identified the top academic discipline among data scientists as being Computer Science.  She also found that traditional STEM disciplines (Computer Science, IT, Statistics, Mathematics, Physics) constitute half of the top 10.  The other half was comprised of individuals with training in non-STEM disciplines such as Economics, Psychology, Marketing, and Accounting.  
+
+
+### The So Called Brain Drain of Data Science
+
+The other source of academic influence on professional data science is the drain. The phenomena of "brain drain", a condition in which the top academic departments around the country lose a portion of their brightest and most successful researchers to private industry labs and exponential start-ups. Data on the severity of the drain process is far more difficult to come by and is largely anecdotal. Recent examples include: the recruitment of a number of robotics researchers from [Carneigie Mellon by Uber](http://www.wsj.com/articles/is-uber-a-friend-or-foe-of-carnegie-mellon-in-robotics-1433084582), a similar sequence of hires occurred in artificial intelligence circles after Andrew Ng [moved from Stanford to Google in 2011](http://www.nature.com/news/ai-talent-grab-sparks-excitement-and-concern-1.19821) initiating somewhat of a trend. The reality is that researchers move in both directions frequently and that ebbs and flows in tenure track appointments, industry initiatives, and research funding dynamics all have significant influences on the prevailing tides.  
+
+
+### Academic influence on data science practice
+
+The most interesting result of these connections between academia and data science is what they tell us about practicing data scientist. In one of the most popular [venn diagrams](http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram) in history Drew Conway defined data science as the intersection of three core skills: hacking, math and statistics and substantive expertise (domain knowledge).  That diagram has been widely shared since it appeared in 2010 and is an excellent heuristic about he nature of data science.  
+
+However, as a professor I spend considerable time trying to define the nebulous and diverse profession of data science to graduate students. I often considered a number of modified forms of that diagram. I believe that the educational background of many practicing data scientist, specifically the disciplines from which they derive and the nature of what defines those disciplines warrants a core addition (FIGURE REF). If we reconsider Conway's Venn diagram but this time consider that nothing done in data science can be successful without domain knowledge or close collaboration with parties that do have that "substantive expertise".  Therefore, I would argue that domain experience is actually a set within which our entire Venn diagram is contained.  Within that set I would then suggest that the data scientist is an individual at the intersection of two disciplines and one skill set. Specifically, current data scientists are individuals that have a keen sense of their operational domain or the ability to assemble that understanding in combination of strong computer science and statistical knowledge and a strong foundation in the scientific methods and core research principles. This final skill set has the additional benefit of continually fueling domain knowledge and expertise.  
+
+Clearly, this is a new and evolving discipline and the current state of train and drain influences will inevitably be altered by the rapid growth and expansion of degrees programs specifically designed to train data scientist.  The nature of those programs, the relative weight they place on various skill sets both technological and conceptual with dictate the practice and the definition of the second generation of data scientist.
+
+
+
+
